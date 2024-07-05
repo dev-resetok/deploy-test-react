@@ -9,7 +9,7 @@ function App() {
     // {process.env.REACT_APP_BACK_END_URL}
     console.log("https://port-0-deploy-test-back-ly8jjkrt043c2434.sel5.cloudtype.app/test")
     const getDatas = async () => {
-      const response = await fetch("", {
+      const response = await fetch("https://port-0-deploy-test-back-ly8jjkrt043c2434.sel5.cloudtype.app/test", {
         method: "POST"
       });
       const datas = await response.json();
